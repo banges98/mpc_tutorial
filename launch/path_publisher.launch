@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+  <node pkg="mpc_tutorial" type="global_path_publisher.py" respawn="true" name="global_path_publisher"/>
+  <node pkg="mpc_tutorial" type="local_path_publisher.py" respawn="true" name="local_path_publisher" output="screen"/>
+</launch>
