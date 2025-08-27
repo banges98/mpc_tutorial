@@ -23,6 +23,8 @@ source ~/catkin_ws/devel/setup.bash
 # 실행 권한 부여
 chmod +x ~/catkin_ws/src/mpc_tutorial/scripts/*.py
 
+exec bash -l
+
 ### Run
 # 1) 경로 발행
 roslaunch mpc_tutorial path_publisher.launch
