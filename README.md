@@ -6,9 +6,11 @@
 - MORAI Simulator (ROS Bridge 사용)
 
 ### Dependencies
+```bash
 - sudo apt update
 - pip3 install cvxpy
 - git clone https://github.com/MORAI-Autonomous/MORAI-ROS_morai_msgs.git
+```
 
 ### Build
 ```bash
