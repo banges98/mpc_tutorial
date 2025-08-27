@@ -1,10 +1,6 @@
 # mpc_tutorial
 
-MORAI Sim (K-City) 환경에서 Model Predictive Control(MPC) 데모를 실행하기 위한 패키지입니다.  
-
----
-
-## Requirements
+### Requirements
 - Ubuntu 20.04 + ROS Noetic  
 - Python 3.8+  
 - MORAI Simulator (ROS Bridge 사용)
