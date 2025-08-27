@@ -25,6 +25,7 @@ chmod +x ~/catkin_ws/src/mpc_tutorial/scripts/*.py
 ```
 
 ### Run
+```bash
 # 1) 경로 발행
 roslaunch mpc_tutorial path_publisher.launch
 
@@ -33,4 +34,5 @@ rosrun mpc_tutorial mpc.py
 
 # 3) RViz 시각화
 roslaunch mpc_tutorial rviz_mpc.launch
+```
 
