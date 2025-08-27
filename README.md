@@ -5,13 +5,11 @@ MORAI Sim (K-City) 환경에서 Model Predictive Control(MPC) 데모를 실행�
 ---
 
 ## Requirements
-
 - Ubuntu 20.04 + ROS Noetic  
 - Python 3.8+  
 - MORAI Simulator (ROS Bridge 사용)
 
 ### Dependencies
-## Restart Bash (쉘 재시작/새로 열기)
 sudo apt update
 pip3 install cvxpy    # MPC에 사용되는 OSQP solver 포함
 git clone https://github.com/MORAI-Autonomous/MORAI-ROS_morai_msgs.git   # MORAI Simulator 메시지 패키지
@@ -26,7 +24,6 @@ source ~/catkin_ws/devel/setup.bash
 chmod +x ~/catkin_ws/src/mpc_tutorial/scripts/*.py
 
 ### Run
-```bash
 # 1) 경로 발행
 roslaunch mpc_tutorial path_publisher.launch
 
