@@ -11,7 +11,7 @@ MORAI Sim (K-City) 환경에서 Model Predictive Control(MPC) 데모를 실행�
 - MORAI Simulator (ROS Bridge 사용)
 
 ### Dependencies
-```bash
+## Restart Bash (쉘 재시작/새로 열기)
 sudo apt update
 pip3 install cvxpy    # MPC에 사용되는 OSQP solver 포함
 git clone https://github.com/MORAI-Autonomous/MORAI-ROS_morai_msgs.git   # MORAI Simulator 메시지 패키지
